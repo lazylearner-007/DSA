@@ -4,7 +4,7 @@ def rabinKarp(string,pattern):
 
 	patLength = len(pattern)
 	prime = 3   #use bigger prime number for better results
-  resultHash = computeHash(pattern,prime) 
+  	resultHash = computeHash(pattern,prime) 
 	hashValue = computeHash(string[0:patLength],prime) 
 	limit = len(string)-patLength+1
 
